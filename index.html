@@ -1,0 +1,79 @@
+<!DOCTYPE html> <!-- Version of html -->
+
+<html lang="en">    <!-- Language which the browser detects -->
+    <head>  <!-- Browser tab -->
+        <!-- utf-8 = 8-bit Unicode Transformation Format. It is used for using new characters or elements like emojis, etc -->
+        <meta charset="utf-8"/>
+        <title>First webpage</title>
+        <!-- <meta/> is used for bringing more information to the browser -->
+        <meta name="description" content="This is my first Webpage"/>
+        <meta name="author" content="Artur"/>
+        <meta name="keywords" content="My first webpage, Artur, html"/>
+    </head>
+    <body>
+        <header>
+            <h1>My blog</h1>    <!-- Title. The number after 'h' from 1 to 6 indicates the size of the text -->
+        </header>
+
+        <p>My first paragraph in html</p>   <!-- p  = paragraph -->
+
+        <nav>    <!-- nav = navigation -->
+            <ul>    <!-- ul = unordered list -->
+                <li>First item</li> <!-- li = list item -->
+                <li>Sedond item</li>
+                <li>Third item</li> 
+            </ul>
+        </nav>
+
+        <section>   <!-- Contains the main content -->
+            <article>   <!-- Used for repetitive content-->
+                <time datetime="10-18-2019">Published 10-18-2019</time> <!-- datetime used for bringing more information to the browser -->
+                <hgroup> <!-- Groups headers to distinguish hierarchy levels -->
+                    <h1>First article's title</h1>
+                    <h3>First article's subtitle</h3>
+                </hgroup>
+                <!-- To make a prove text we can type: lorem(number of random words) Ex: lorem30 (Command of the editor, not HTML code)-->
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus recusandae, 
+                    ea dolorum maxime natus alias cupiditate consequuntur fugit magnam, corrupti <span>iste voluptatibus</span> <!-- It wil be useful for making changes with CSS -->
+                    sit soluta ad qui placeat architecto et! Eos!</p>
+                <img src="Images/coffee.png"/> <!-- img = Image -->
+                <footer>
+                    <p>Comments (10)</p>
+                </footer>
+                <address> <!-- Says to the browser that this is a link -->
+                        <a href="https://youtube.com">Enter youtube</a> <!-- Creates a link. The text is what the user sees. -->
+                </address>
+            </article>
+            
+            <article>
+                <time datetime="10-18-2019">Published 10-18-2019</time>
+                <hgroup>
+                    <h1>Second article's title</h1>
+                    <h2>Second article's subtitle</h2>
+                </hgroup>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus temporibus laborum eaque aliquam
+                     harum commodi voluptas recusandae, quibusdam ullam! Corrupti officiis, quidem libero <small>eveniet</small> <!-- Changes the size of the text --> 
+                     ducimus ipsa ipsam explicabo voluptatem minus!</p>
+                <footer>
+                    <p>Comments (8)</p>
+                </footer>
+            </article>
+        </section>
+
+        <aside> <!-- Relationed content but not so important -->
+            <blockquote cite="https://wikipedia.com"> <!-- For writing quotes -->
+                I like you
+            </blockquote>
+            <blockquote cite="https://youtube.com">
+                I like tea
+            </blockquote>
+        </aside>
+
+        <footer> <!-- Text underpage of an element -->
+            Reserved Rights 2018-2019
+        </footer>
+    </body>
+</html>
+
+
+
