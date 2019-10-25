@@ -18,3 +18,9 @@ header, section, footer, aside, nav, article, hgroup {
 body{
     text-align: center;
 }
+
+.group {
+    width: 960px;
+    margin-top: 200px;
+    margin: 15px auto;
+}
