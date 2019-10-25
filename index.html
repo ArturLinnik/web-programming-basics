@@ -11,12 +11,9 @@
         <meta name="keywords" content="My first webpage, Artur, html"/>
         <!-- We have to do this is the head because the styles have to charge first-->
         <style> 
-            #navigation{
-                background: red;
-            }
-            footer{
-                background: green;
-            }
+           .green{
+               background: green;
+           }
         </style>
     </head>
     <body>
@@ -26,7 +23,7 @@
 
         <p>My first paragraph in html</p>   <!-- p  = paragraph -->
 
-        <nav id="navigation">    <!-- nav = navigation -->
+        <nav class="green">    <!-- nav = navigation -->
             <ul>    <!-- ul = unordered list -->
                 <li>First item</li> <!-- li = list item -->
                 <li>Sedond item</li>
@@ -42,7 +39,8 @@
                     <h3>First article's subtitle</h3>
                 </hgroup>
                 <!-- To make a prove text we can type: lorem(number of random words) Ex: lorem30 (Command of the editor, not HTML code)-->
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus recusandae, 
+                <!-- "class" is used like the id but can be reusable in multiple elements -->
+                <p class="green">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus recusandae, 
                     ea dolorum maxime natus alias cupiditate consequuntur fugit magnam, corrupti <span>iste voluptatibus</span> <!-- It wil be useful for making changes with CSS -->
                     sit soluta ad qui placeat architecto et! Eos!</p>
                 <img src="Images/coffee.png"/> <!-- img = Image -->
