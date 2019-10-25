@@ -9,15 +9,24 @@
         <meta name="description" content="This is my first Webpage"/>
         <meta name="author" content="Artur"/>
         <meta name="keywords" content="My first webpage, Artur, html"/>
+        <!-- We have to do this is the head because the styles have to charge first-->
+        <style> 
+            #navigation{
+                background: red;
+            }
+            footer{
+                background: green;
+            }
+        </style>
     </head>
     <body>
-        <header style="background: red">
-            <h1 style="background: aqua">My blog</h1>    <!-- Title. The number after 'h' from 1 to 6 indicates the size of the text -->
+        <header id="header">    <!-- id = identifier. Used for style in CSS -->
+            <h1>My blog</h1>    <!-- Title. The number after 'h' from 1 to 6 indicates the size of the text -->
         </header>
 
         <p>My first paragraph in html</p>   <!-- p  = paragraph -->
 
-        <nav style="background: blue">    <!-- nav = navigation -->
+        <nav id="navigation">    <!-- nav = navigation -->
             <ul>    <!-- ul = unordered list -->
                 <li>First item</li> <!-- li = list item -->
                 <li>Sedond item</li>
@@ -69,7 +78,7 @@
             </blockquote>
         </aside>
 
-        <footer style="color: white; background: black"> <!-- Text underpage of an element -->
+        <footer> <!-- Text underpage of an element -->
             Reserved Rights 2018-2019
         </footer>
     </body>
