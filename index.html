@@ -9,21 +9,16 @@
         <meta name="description" content="This is my first Webpage"/>
         <meta name="author" content="Artur"/>
         <meta name="keywords" content="My first webpage, Artur, html"/>
-        <!-- We have to do this is the head because the styles have to charge first-->
-        <style> 
-           * {
-               background: green;
-           }
-        </style>
+        <link rel="stylesheet" href="styles.css">  <!-- To use the 'css' file -->
     </head>
     <body>
-        <header id="header">    <!-- id = identifier. Used for style in CSS -->
+        <header>    <!-- id = identifier. Used for style in CSS -->
             <h1>My blog</h1>    <!-- Title. The number after 'h' from 1 to 6 indicates the size of the text -->
         </header>
 
         <p>My first paragraph in html</p>   <!-- p  = paragraph -->
 
-        <nav class="green">    <!-- nav = navigation -->
+        <nav>    <!-- nav = navigation -->
             <ul>    <!-- ul = unordered list -->
                 <li>First item</li> <!-- li = list item -->
                 <li>Sedond item</li>
@@ -39,8 +34,7 @@
                     <h3>First article's subtitle</h3>
                 </hgroup>
                 <!-- To make a prove text we can type: lorem(number of random words) Ex: lorem30 (Command of the editor, not HTML code)-->
-                <!-- "class" is used like the id but can be reusable in multiple elements -->
-                <p class="green">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus recusandae, 
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus recusandae, 
                     ea dolorum maxime natus alias cupiditate consequuntur fugit magnam, corrupti <span>iste voluptatibus</span> <!-- It wil be useful for making changes with CSS -->
                     sit soluta ad qui placeat architecto et! Eos!</p>
                 <img src="Images/coffee.png"/> <!-- img = Image -->
