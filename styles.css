@@ -1,7 +1,20 @@
-header {
-    background: green;
+h1 {
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
 }
 
-footer{
-    background: green;
+/* The same as the upper code */
+h2 {
+    font: bold 14px sans-serif; 
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    border: 1px solid black;
+    display: block;
+}
+
+/* Affects all the body */
+body{
+    text-align: center;
 }
