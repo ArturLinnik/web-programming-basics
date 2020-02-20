@@ -5,39 +5,32 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curso Bootstrap</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Cambia los colores del background en funcion de las dimensiones de la pantalla -->
+    <style media="screen">
+        @media (min-width: 576px) {
+            body {
+                background: red;
+            }
+        }
+        @media (min-width: 768px) {
+            body {
+                background: blue;
+            }
+        }
+        @media (min-width: 1200px) {
+            body {
+                background: yellow;
+            }
+        }
+    </style>
+
+    <!-- Se puede hacer lo mismo pero con max-width -->
+
 </head>
 <body>
     
-    <div class="bg-success p-3 w-25">
-        ancho 25%
-    </div>
-    <div class="bg-success p-3 w-50">
-        ancho 25%
-    </div>
-    <div class="bg-success p-3 w-75">
-        ancho 25%
-    </div>
-    <div class="bg-success p-3 w-100">
-        ancho 25%
-    </div>
-
-    <hr>
-
-    <div class="bg-success" style="border: 1px solid #000; height: 300px">
-        <div class="bg-primary d-inline-block h-25">
-            elemento 1
-        </div>
-        <div class="bg-primary d-inline-block h-50">
-            elemento 1
-        </div>
-        <div class="bg-primary d-inline-block h-75">
-            elemento 1
-        </div>
-        <div class="bg-primary d-inline-block h-100">
-            elemento 1
-        </div>
-        
-    </div>
+    
 
 
 
